@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body {
+    margin: 20px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    border-bottom: 6px solid #5E548E;
+    background: #E0B1CB;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    color: #231942;
+    border-radius: 8px;
+    box-shadow: 10px 10px;
+    text-shadow: 2px 2px 8px #231942;
+}
+
+@keyframes myAnimation {
+    0% {background-color: #5E548E;}
+    25% {background-color: #9F86C0;}
+    50% {background-color: #BE95C4;}
+    100% {background-color: #E0B1CB;}
+}
